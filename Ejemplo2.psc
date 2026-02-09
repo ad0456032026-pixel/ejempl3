@@ -49,7 +49,7 @@ Algoritmo Ejemplo2
 	// not mejor no
 	
 	// == si es igual 
-	// 
+	// diferente <>
 	
 	
 	
