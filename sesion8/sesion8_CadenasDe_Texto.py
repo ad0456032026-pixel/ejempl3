@@ -64,18 +64,4 @@ cancion1_Mayusculas = cancion1.upper()
 # string.lower
 
 cancion_minusculas = cancion1.lower()
-## print(cancion_minusculas)
-
-mensaje = "HolA kAce prOgRamAndO o k hAce"
-
-mensaje_correcto = mensaje.capitalize()
-## print(mensaje_correcto)
-
-## Las flipantes aventuras de el gato con bolson magido y alfredo
-titulo = "Las flipantes aventuras de el gato con bolson magido y alfredo"
-titulo_correcto = titulo.title()
-## print(titulo_correcto)
-
-##  swapCase -> permite cambiar entre mayusculas y minusculas
-swapCaseTitulo = titulo_correcto.swapcase()
-print(swapCaseTitulo)
+print(cancion_minusculas)
