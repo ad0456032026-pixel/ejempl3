@@ -64,4 +64,15 @@ cancion1_Mayusculas = cancion1.upper()
 # string.lower
 
 cancion_minusculas = cancion1.lower()
-print(cancion_minusculas)
+##print(cancion_minusculas)
+
+## metodos de validacion
+# false numeros o espacio
+# true tiene solo letras
+
+numero = "512"
+solo_letras = "El chico del apartamento cincodoce "
+Coro = "piripiribanban"
+
+quieroSoloLetras = solo_letras.isalpha()
+print(quieroSoloLetras)
