@@ -1,0 +1,20 @@
+print(" sistema de privacidad de nombres ")
+
+nombre_completo = input("ingresa tu primer nombre y tu primer apellido: ")
+
+lista_palabras = nombre_completo.split()
+
+lista_invertida = lista_palabras[::-1]
+
+print("\n formato procesado ")
+
+for palabra in lista_invertida:
+    palabra_con_puntos = ""
+
+    for letra in palabra:
+        if palabra_con_puntos == "":
+            palabra_con_puntos = letra
+        else:
+            palabra_con_puntos += "." + letra
+
+    print(palabra_con_puntos)
