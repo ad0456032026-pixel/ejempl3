@@ -1,0 +1,21 @@
+from decimal import Decimal
+
+total = Decimal("0.0")
+
+print(" terminal de cobro seguro ")
+
+while True:
+    try:
+        entrada = input("ingresa el precio del producto (0 para cerrar caja): ")
+        _ = float(entrada)
+        precio = Decimal(entrada)
+
+        if precio == 0:
+            break
+
+        total += precio
+
+    except ValueError:
+        print("advertencia: dato invalido, por favor ingresa solo numeros.")
+
+print(f"el total acumulado es: ${total}")
